@@ -1,0 +1,58 @@
+.message{
+    border: 1px solid green;
+}
+.message p{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;
+}
+.message p span{
+    padding: 0.5rem;
+    font-size: 1rem;
+    align-content: flex-start;
+}
+
+.carddetails{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.carddetails input[type="text"]{
+    margin-top: 1rem;
+    height: 4rem;
+}
+
+/* .carddetails .fab {
+    position: absolute;
+}
+
+.carddetails .fas{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+} */
+
+#shield {
+    position: absolute;
+    right: 100px;
+    opacity: 0.6;
+    font-size: 3rem;
+    color: green;
+}
+
+#visa, #amex, #mastercard {
+    font-size: 3rem;
+}
+
+#visa{
+    right: 210px;
+}
+
+#amex{
+    right: 170px;
+}
+#mastercard{
+    right: 130px;
+}
+
+.innerbody{
+    padding: 2rem 2rem 2rem 2rem;
+}

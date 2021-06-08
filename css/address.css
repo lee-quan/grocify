@@ -1,0 +1,12 @@
+.addressdetails{
+    padding: 1rem;
+}
+
+.addressdetails .addressinput{
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.addressdetails textarea{
+    width: 100%;
+}

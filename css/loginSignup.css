@@ -1,0 +1,111 @@
+:root {
+    --white: #fff;
+    --black: #222;
+    --pink: #f60091;
+    --grey: #444;
+    --grey2: #959595;
+    --grey-alt: #d1e2e9;
+    --yellow: #ffd800;
+    --green: #59b210;
+  }
+body {
+    background-color:rgb(255 237 235);
+    font-weight: 300
+}
+
+.height {
+    height: 100vh
+}
+
+.card {
+    border: none;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0)
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.form-group i {
+    position: absolute;
+    font-size: 18px;
+    top: 40px;
+    left: 10px
+}
+
+.form-control {
+    height: 50px;
+    background-color: #ffffff;
+    text-indent: 24px;
+    font-size: 15px
+}
+
+.form-control:focus {
+    background-color: #25272a;
+    box-shadow: none;
+    color: #fff;
+    border-color: #000000
+}
+
+.form-control:focus{
+    color: white;
+}
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.signup {
+    height: 50px;
+    font-size: 14px
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.social:hover {
+    background-color: black;
+    border-color: #000000;
+    color: white;
+}
+
+.btn-primary {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #000000;
+    height: 5rem;
+    font-size: 2rem;
+}
+.btn-primary:hover {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+.form-check-input {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.form-check-input:checked {
+    background-color: black;
+    border-color: black;
+}

@@ -1,0 +1,16 @@
+<div class='comment' style='padding: 1rem 0 2rem 0; position:relative'>
+                            <div style='display:inline-block;vertical-align:top; margin-right:20px;'>
+                                <img src='images/tacc1157_05_faceright_10k_rgb.jpeg' style='width: 60px; height:60px; border-radius:50%;' alt=''>
+                            </div>
+                            <div style='display:inline-block; max-width:570px'>
+                                <div class='star-ratings-css comment'>
+                                    <div class='star-ratings-css-top' style='width:`+value.rate/5*100+`%'><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+
+                                    <div class='star-ratings-css-bottom'><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                                </div>
+                                <p>`+value.message+`</p>
+                            </div>
+                            <div style='display:inline-block; width:49rem; text-align:right; position:absolute; top:1rem; right:1rem'>
+                                <p style='font-size: 1.2rem;'><strong>`+value.firstname+' '+value.lastname+`</strong><span style='color: gray;'>--<em>`+value.rateat+`</em></span></p>
+                            </div>
+                        </div>

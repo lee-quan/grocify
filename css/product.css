@@ -1,0 +1,248 @@
+:root{
+  --peach : rgba(237, 171, 161);
+}
+
+.dropdowncat {
+  display: block;
+}
+
+.dropdowncat a {
+  color: black;
+}
+
+.dropdowncat li{
+  margin: 2rem 0 2rem 0;
+}
+.dropdowncat.tap{
+  display: block;
+}
+
+
+.ellipsis:hover{
+  overflow: visible;
+}
+button{
+  border:none;
+  background-color:transparent;
+  padding: 1rem;
+  font-size: revert;
+}
+
+.catbtn.active{
+  font-weight: bold;
+}
+.small-container{
+  /* margin: auto; */
+}
+
+.row img{
+  height: 200px;
+  width: 200px;
+}
+
+.col-sm{
+flex-basis: 25%;
+padding: 10px;
+max-width: 360px;
+/* margin-bottom: 50px; */
+box-shadow: whitesmoke;
+margin-right: 1.5rem;
+margin-bottom: 1.5rem;
+position: relative;
+background-color: white;
+
+}
+
+.productinfo{
+  margin: 0 0 10rem 0;
+}
+
+.productbtn{
+  position:absolute;
+  bottom: 1rem;
+  left:0; right:0;
+}
+
+.col-sm button,.col-md-6 button{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  height: 4rem; 
+  border:1px solid black;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+}
+
+.col-sm button:hover{
+  background-color: white;
+  color: var(--peach);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+    padding: 0.5rem 0 0.5rem 1rem;
+    width: 4.2rem;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+/* Product details */
+
+.pdetailsbtn{
+  border:none;
+  background-color: transparent ;
+  margin:0 1rem 0 0;
+}
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 20px;
+  height: 25px;
+  width: 100px;
+  /* margin: 0 auto; */
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+.star-ratings-css.comment {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 15px;
+  height: 25px;
+  width: 75px;
+  /* margin: 0 auto; */
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+  .star-ratings-css-top {
+    color:rgb(255, 217, 0);
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  .star-ratings-css-bottom {
+    padding: 0;
+    display: block;
+    z-index: 0;
+  }
+
+  /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+  .rating-group {
+    display: inline-flex;
+  }
+  
+  /* make hover effect work properly in IE */
+  .rating__icon {
+    pointer-events: none;
+  }
+  
+  /* hide radio inputs */
+  .rating__input {
+   position: absolute !important;
+   left: -9999px !important;
+  }
+  
+  /* hide 'none' input from screenreaders */
+  .rating__input--none {
+    display: none
+  }
+
+  /* set icon padding and size */
+  .rating__label {
+    cursor: pointer;
+    padding: 0 0.1em;
+    font-size: 2rem;
+  }
+  
+  /* set default star color */
+  .rating__icon--star {
+    color: rgb(255, 217, 0);
+  }
+
+  /* if any input is checked, make its following siblings grey */
+  .rating__input:checked ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+  
+  /* make all stars rgb(255, 217, 0); on rating group hover */
+  .rating-group:hover .rating__label .rating__icon--star {
+    color: rgb(255, 217, 0);
+  }
+
+  /* make hovered input's following siblings grey on hover */
+  .rating__input:hover ~ .rating__label .rating__icon--star {
+    color: #ddd;
+  }
+
+  .btn-primary{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid black !important;
+    font-size: 1.3rem;
+  }
+
+  .table{
+    border-bottom-style: none;
+  }
+
+  .product_list tr{
+    margin: 1rem 0 1rem 0;
+  }
+
+  .product_list button{
+    border:none;
+    background-color: transparent;
+  }
+
+  .form-control, .form-select{
+    height: 4rem;
+    line-height: 2rem;
+    padding: 1rem;
+    font-size: 15px;
+    }
+
+
+    .row.addressdefault.show{
+      display: flex;
+    }
+
+    .row.addressdefault{
+      display:none;
+    }
+    .row.addressedit.show{
+      display: block;
+    }
+
+    .row.addressedit{
+      display:none;
+    }
+    .modal-body{
+      padding:3rem;
+    }
